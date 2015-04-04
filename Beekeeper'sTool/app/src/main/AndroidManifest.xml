@@ -18,6 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.techreviewsandhelp.beekeeperstool.Start"  android:label="Start" ></activity>
+        <activity android:name="com.techreviewsandhelp.beekeeperstool.Help"  android:label="Help" ></activity>
+
     </application>
 
 </manifest>

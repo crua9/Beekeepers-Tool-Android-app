@@ -8,18 +8,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * Created by crua9 on 4/3/2015.
+ */
+public class Help extends Activity {
 
-public class MainActivity extends Activity {
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.help);
 
-        Button b1 = (Button)findViewById(R.id.b_youtube);
-
-        Button start = (Button)findViewById(R.id.menu);
-        Button help = (Button)findViewById(R.id.help);
+ /**
+  *
+  * Below is a made button function to go to YouTube. The link and button has to be changed.
+  *
+  * Button b1 = (Button)findViewById(R.id.b_youtube);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,21 +33,10 @@ public class MainActivity extends Activity {
             }
         });
 
-
+*/
+        Button start = (Button)findViewById(R.id.start);
 
         final Context c = this;
-
-
-        help.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                // TODO Auto-generated method stub
-                startActivity(new Intent(c, Help.class));
-                finish();
-            }
-        });
-
 
 
         start.setOnClickListener(new View.OnClickListener() {
@@ -58,9 +50,4 @@ public class MainActivity extends Activity {
         });
 
     }
-
-
-
-
-
 }
