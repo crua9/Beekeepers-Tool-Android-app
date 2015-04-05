@@ -6,15 +6,40 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center">
+        android:layout_height="wrap_content">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Back to the start screen"
-            android:id="@+id/start" />
+            android:text="Go back"
+            android:id="@+id/start"
+            android:background="@drawable/blank"
+            />
 
+<!--
+
+        This will be added when I get a YouTube how to on this app.
+
+        Make sure the ID is correct before OK it.
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See the video"
+                android:id="@+id/help_youtube"
+                android:background="@drawable/blank"
+                />
+
+
+
+        </LinearLayout>
+    -->
 
     </LinearLayout>
 
@@ -44,6 +69,16 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="This text is there to help people" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="This help page will be filled out as the app is being made, and as real functions are program into it." />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

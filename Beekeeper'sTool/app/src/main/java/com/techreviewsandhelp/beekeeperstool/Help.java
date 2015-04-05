@@ -22,7 +22,7 @@ public class Help extends Activity {
   *
   * Below is a made button function to go to YouTube. The link and button has to be changed.
   *
-  * Button b1 = (Button)findViewById(R.id.b_youtube);
+  * Button b1 = (Button)findViewById(R.id.help_youtube);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override

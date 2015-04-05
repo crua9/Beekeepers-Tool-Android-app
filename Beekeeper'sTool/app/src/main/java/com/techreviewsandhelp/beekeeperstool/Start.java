@@ -18,6 +18,11 @@ public class Start extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.start);
 
+
+        /**
+         * ID Buttons
+         */
+
         Button back = (Button)findViewById(R.id.back1);
         Button help = (Button)findViewById(R.id.bhelp);
 
@@ -33,18 +38,10 @@ public class Start extends Activity {
                 finish();
             }
         });
-
-
-        help.setOnClickListener(new View.OnClickListener() {
+           help.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 startActivity(new Intent(c, Help.class));
-            }
-        });
-
-
-
-    }
-}
+            }});}}
