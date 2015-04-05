@@ -26,5 +26,6 @@
         android:text="Help"
         android:id="@+id/bhelp"
         android:textSize="30dp"
+        android:background="@drawable/glassbutton"
         />
 </LinearLayout>
