@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent yt = new Intent(Intent.ACTION_VIEW);
-                yt.setData(Uri.parse("https://www.youtube.com/playlist?list=PLioOFeHwQV5wqTf9S43CmwNml4UBXYqkT"));
+                yt.setData(Uri.parse("https://www.youtube.com/playlist?list=PLioOFeHwQV5zxRaDpN-hFzvCqrWnSnADt"));
                 startActivity(yt);
             }
         });
