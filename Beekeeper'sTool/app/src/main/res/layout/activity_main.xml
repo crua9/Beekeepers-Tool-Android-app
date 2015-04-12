@@ -22,27 +22,23 @@
            >
 
             <Button
-                android:layout_width="fill_parent"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
                 android:text="How to make this app"
                 android:id="@+id/b_youtube"
                 android:textSize="30dp"
-                android:background="@drawable/blank"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text=""
+                android:background="@drawable/blank"
                 />
 
+
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="185dp"
                 android:layout_height="wrap_content"
                 android:text="Main menu"
                 android:id="@+id/menu"
                 android:textSize="30dp"
                 android:background="@drawable/blank"
+                android:layout_marginTop="15dp"
                 />
 
             <TextView
