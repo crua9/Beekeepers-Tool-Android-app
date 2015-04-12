@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
 
         Button start = (Button)findViewById(R.id.menu);
         Button help = (Button)findViewById(R.id.help);
+        Button pest = (Button)findViewById(R.id.pest);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +54,16 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 startActivity(new Intent(c, Start.class));
+                finish();
+            }
+        });
+
+        pest.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                startActivity(new Intent(c, Pest.class));
                 finish();
             }
         });

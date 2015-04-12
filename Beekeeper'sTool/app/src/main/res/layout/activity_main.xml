@@ -60,6 +60,20 @@
                 android:textSize="30dp"
                 android:background="@drawable/blank"
                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pest"
+                android:id="@+id/pest"
+                android:textSize="30dp"
+                android:background="@drawable/blank"/>
         </LinearLayout>
 
     </LinearLayout>
