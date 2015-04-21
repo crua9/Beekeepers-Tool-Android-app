@@ -16,11 +16,9 @@
             android:background="@drawable/blank"
             />
 
-<!--
 
-        This will be added when I get a YouTube how to on this app.
 
-        Make sure the ID is correct before OK it.
+
 
         <LinearLayout
             android:orientation="horizontal"
@@ -39,7 +37,7 @@
 
 
         </LinearLayout>
-    -->
+
 
     </LinearLayout>
 
@@ -79,6 +77,61 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="This help page will be filled out as the app is being made, and as real functions are program into it." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Terms:"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="By using this app you agree to the terms that follows."
+                android:layout_marginBottom="12dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="You understand this application is in the beta stage."
+                android:layout_marginBottom="12dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="You acknowledge that you can change/add to the code. All of the code is on GitHub."
+                android:layout_marginBottom="12dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Github"
+                    android:id="@+id/Github"
+                    android:background="@drawable/blank"
+                    android:layout_gravity="clip_horizontal"
+                    />
+                </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="You will let the developer know what you want the app to do"
+                android:layout_marginBottom="12dp"
+                />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

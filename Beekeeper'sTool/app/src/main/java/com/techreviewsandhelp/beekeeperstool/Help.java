@@ -18,25 +18,14 @@ public class Help extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.help);
 
- /**
-  *
-  * Below is a made button function to go to YouTube. The link and button has to be changed.
-  *
-  * Button b1 = (Button)findViewById(R.id.help_youtube);
 
-        b1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent yt = new Intent(Intent.ACTION_VIEW);
-                yt.setData(Uri.parse("https://www.youtube.com/playlist?list=PLioOFeHwQV5wqTf9S43CmwNml4UBXYqkT"));
-                startActivity(yt);
-            }
-        });
+    Button b1 = (Button)findViewById(R.id.help_youtube);
 
-*/
+
+
         Button start = (Button)findViewById(R.id.start);
 
-        final Context c = this;
+                final Context c = this;
 
 
         start.setOnClickListener(new View.OnClickListener() {
@@ -49,5 +38,19 @@ public class Help extends Activity {
             }
         });
 
-    }
-}
+          b1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent yt = new Intent(Intent.ACTION_VIEW);
+                        yt.setData(Uri.parse("https://www.youtube.com/playlist?list=PLioOFeHwQV5wqTf9S43CmwNml4UBXYqkT"));
+                        startActivity(yt);
+
+        Button git = (Button)findViewById(R.id.Github);
+
+        git.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent yt = new Intent(Intent.ACTION_VIEW);
+                yt.setData(Uri.parse("https://github.com/crua9"));
+                startActivity(yt);
+            }});}});}}

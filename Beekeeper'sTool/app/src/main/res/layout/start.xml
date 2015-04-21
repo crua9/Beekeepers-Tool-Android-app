@@ -22,7 +22,11 @@
 
     </LinearLayout>
 
-
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="This app is still being built. You can see how this app is being made from clicking DEV VIDEOS button below."
+    />
 
     <LinearLayout
         android:orientation="vertical"
@@ -33,18 +37,40 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Dev videos"
+            android:id="@+id/yt"
+            android:textSize="30dp"
+            android:background="@drawable/blank"
+            android:layout_marginBottom="12dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hives"
+            android:id="@+id/hive"
+            android:textSize="30dp"
+            android:background="@drawable/blank"
+            android:layout_marginBottom="12dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pest"
+            android:id="@+id/pest"
+            android:textSize="30dp"
+            android:background="@drawable/blank"
+            android:layout_marginBottom="12dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Go back"
             android:id="@+id/back1"
             android:textSize="30dp"
             android:background="@drawable/blank"
+            android:layout_marginBottom="12dp"
             />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text=""
-            />
 
         <Button
             android:layout_width="wrap_content"

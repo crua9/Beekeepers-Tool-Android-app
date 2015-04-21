@@ -7,13 +7,15 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name=".MainActivity"
+        <activity  android:name=".MainActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            >
-        </activity>
+            android:screenOrientation="portrait"> </activity>
+
+
+
+
                     <activity
+
                         android:name="com.techreviewsandhelp.beekeeperstool.Splash"
                         android:screenOrientation="portrait"
                         android:label="@string/app_name">
@@ -23,9 +25,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.techreviewsandhelp.beekeeperstool.Start"  android:label="Start" ></activity>
-        <activity android:name="com.techreviewsandhelp.beekeeperstool.Help"  android:label="Help" ></activity>
-        <activity android:name="com.techreviewsandhelp.beekeeperstool.Pest"  android:label="Pest" ></activity>
+
+
+        <activity android:name="com.techreviewsandhelp.beekeeperstool.Start"
+            android:label="Start" ></activity>
+
+        <activity android:name="com.techreviewsandhelp.beekeeperstool.Help"
+            android:label="Help" ></activity>
+
+        <activity android:name="com.techreviewsandhelp.beekeeperstool.Pest"
+            android:label="Pest" ></activity>
+
+        <activity android:name="com.techreviewsandhelp.beekeeperstool.Hive"
+            android:label="Hive" ></activity>
+
     </application>
 
 </manifest>
