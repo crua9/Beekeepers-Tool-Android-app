@@ -21,9 +21,10 @@ public class Comment {
      *
      * 4. An ability to find YouTube how to videos (if we make some)
      *
-     * 5. An ability to take voice notes
+     * 5. An ability to take voice notes voice activation (maybe best to add something that says best used with mic)
+     *       have the nfc working with the voice notes, so the app says which hive the user was talking about.
      *
-     * 6. An ability to use some of the sensors on a major band's phone.
+     * 6. An ability to use some of the sensors on a major brand phone. EX UV, heat, etc
      *
      *
      *
