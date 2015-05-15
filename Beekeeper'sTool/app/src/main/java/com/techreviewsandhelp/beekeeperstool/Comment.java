@@ -39,6 +39,9 @@ public class Comment {
      *
      */
 
-
+/**
+ * Voice notes should have the ability to save to the name of the hive, and the time.
+ * It maybe a good idea to have them auto save to the cloud.
+ */
 
 }
