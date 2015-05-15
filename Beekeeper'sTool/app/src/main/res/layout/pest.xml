@@ -3,11 +3,18 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!--
+            There is a lot of wasted space on this layout. Maybe we can fill it with info?
+            Maybe the wasted space is OK since it looks less busy. This needs to be tested.
+    -->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Click on the image to find more info about the pest" />
+        android:text="Click on the image to find more info about the pest"
+        android:layout_gravity="center"
+        />
 
     <TextView
         android:layout_width="fill_parent"

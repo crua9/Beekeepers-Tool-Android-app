@@ -19,6 +19,10 @@ public class Hive extends Activity {
 
     /**
      * Not sure how this layout will be yet
+     * 
+     * maybe I will keep it as a button or make it into a dynamic list.
+     * I don't like the look of the buttons
+     *
      */
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,39 +30,46 @@ public class Hive extends Activity {
         setContentView(R.layout.hive);
 }
 
+    /**
+     *
+     * This code maybe useless now. Users may not actually care for the notes. However, the user should
+     * have the ability to take note, or have the phone read off the Q&A to them. See comment 8 on java.
+     *
+     *
+     * public void startRecording(){
+     recorder = new MediaRecorder();
+     recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
+     recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
+     recorder.setOutputFile(opformats[curFormat]);
+     recorder.setOutputFile(getFileStreamPath());
 
-public void startRecording(){
-    recorder = new MediaRecorder();
-    recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
-    recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
-    recorder.setOutputFile(opformats[curFormat]);
-    recorder.setOutputFile(getFileStreamPath());
+     try{
+     recorder.prepare();
+     recorder.start();
+     } catch (Exception e){
+     e.printStackTrace();
+     }}
 
-    try{
-        recorder.prepare();
-        recorder.start();
-            } catch (Exception e){
-        e.printStackTrace();
-    }}
+     public void stopRecording(){
+     if(recorder != null){
+     recorder.stop();
+     recorder.reset();
+     recorder.release();
 
-    public void stopRecording(){
-        if(recorder != null){
-            recorder.stop();
-            recorder.reset();
-            recorder.release();
+     recorder= null;
+     }
+     }
 
-            recorder= null;
-        }
-    }
+     private String getFilePath(){
+     String filePath = Environment.getExternalStorageDirectory().getPath();
+     File file = File(filePath, "something");
 
-    private String getFilePath(){
-        String filePath = Environment.getExternalStorageDirectory().getPath();
-        File file = File(filePath, "something");
+     if(!file.exists())
+     file.mkdirs();
+     return (file.getAbsolutePath() +"/" + System.currentTimeMillis() + curFormat );
+     }
+     */
 
-        if(!file.exists())
-            file.mkdirs();
-        return (file.getAbsolutePath() +"/" + System.currentTimeMillis() + curFormat );
-    }
 
 }
 

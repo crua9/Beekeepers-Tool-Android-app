@@ -2,11 +2,205 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+<!--
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="This is just a placeholder"
-        />
+        /> -->
+
+
+
+    <!--
+
+            I don't like the look of this layout when the phone is on the side.
+            There is too much space on the sides.
+            Will a list look better?
+
+            What to do if there is no hives? Should it say Add Hive?
+
+    -->
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go back"
+            android:id="@+id/button"
+            android:layout_margin="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select the hive."
+            android:textColor="#ff000000" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voice questions"
+            android:id="@+id/button3"
+            android:layout_margin="4dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:background="#ff00fcff" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:gravity="center"
+            >
+
+<!--
+        This holds 20 hives to select from.
+
+ -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:id="@+id/button2"
+            android:text="Hive 1"
+            android:layout_marginBottom="4dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hive 2"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hive 3"  android:layout_marginBottom="4dp"/>
+
+            <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:text="Hive 4"  android:layout_marginBottom="4dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hive 5"  android:layout_marginBottom="4dp"/>
+            <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:text="Hive 6"  android:layout_marginBottom="4dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hive 7"
+            android:layout_marginBottom="4dp" />
+
+            <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:text="Hive 8"
+                android:layout_marginBottom="4dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hive 9"
+            android:layout_marginBottom="4dp" />
+
+            <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:text="Hive 10"
+                android:layout_marginBottom="4dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hive 11"
+            android:layout_marginBottom="4dp" />
+
+            <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:text="Hive 12"
+                android:layout_marginBottom="4dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hive 13"
+            android:layout_marginBottom="4dp" />
+
+            <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:text="Hive 14"
+                android:layout_marginBottom="4dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hive 15"
+            android:layout_marginBottom="4dp" />
+
+            <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:text="Hive 16"
+                android:layout_marginBottom="4dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hive 17"
+            android:layout_marginBottom="4dp" />
+
+            <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:text="Hive 18"
+                android:layout_marginBottom="4dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hive 19"
+            android:layout_marginBottom="4dp" />
+
+            <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:text="Hive 20"
+                android:layout_marginBottom="4dp" />
+
+
+
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
 </LinearLayout>
