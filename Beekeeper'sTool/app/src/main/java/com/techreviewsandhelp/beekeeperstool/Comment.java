@@ -78,6 +78,8 @@ public class Comment {
      * 8. Take off the place holder and fully release the app.
      *
      * 9. If the person has outside instruments like temp, humidify, LB, etc. then it can be tied into the log.
+     *
+     * 10. Add a voice control button on the notification bar. That away someone just has to hit the button, to turn on the vc.
      */
 /**
  * Voice notes should have the ability to save to the name of the hive, and the time.
