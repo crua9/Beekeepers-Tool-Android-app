@@ -58,6 +58,7 @@ public class Comment {
      * 2. Hive page needs to be turned into a dynamic list.
      *
      * 3. Voice class needs to be made. This function needs to all the user to take notes, and answer yes or no questions about a hive.
+     * (some of the questions are on the a_hive layout)
      *
      * 4. Front page needs to be more eye candy. This can be worked on last.
      *
@@ -68,12 +69,15 @@ public class Comment {
      * delete old files.
      * How old should be too old? Maybe ask a company?
      * Is there something we can do with those files for computer use?
+     * Maybe this can be sync to Google cloud.
      *
      * 7. Ads and donation.
      * May add a feature where someone can donate, get a code, and they don't get ads or ask to donate again? Legal?
      * Will the person donate or stand it if the voice ask them? (Maybe not)
      *
      * 8. Take off the place holder and fully release the app.
+     *
+     * 9. If the person has outside instruments like temp, humidify, LB, etc. then it can be tied into the log.
      */
 /**
  * Voice notes should have the ability to save to the name of the hive, and the time.

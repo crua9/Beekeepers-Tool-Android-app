@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+    This layout is a general layout which will come up when someone is logging their hive info.
+     It maybe best to have some key word that can be used to trigger a voice control so the user can just use a bluetooth headset to fill this out
+     -->
+
+    <!--
+     Things to log
+
+     Eggs if yes then are they up and down (this means it's fresh eggs) If there is eggs then consistent pattern if eggs are yes, then is there royal jelly
+     Is there larva if yes is it cap
+     Honey If yes then is it cap
+     Queen If yes is it marked
+     Queen cells are they swarm cells
+     drone cells if yes then ask if the amount is high mid or low
+     Pollen
+     Nectar
+     Pest if yes say what type or have the phone read it
+     Are they coming in with resources if yes then is the activity high mid or low
+     Is there empty draw frames
+     Hive configurations Winter Summer or Spring
+     Is there feeders on the hive
+
+
+     Thing to add is if the person has instruments. If they do, then how do you add that info into this app.
+     -->
+
+</LinearLayout>
