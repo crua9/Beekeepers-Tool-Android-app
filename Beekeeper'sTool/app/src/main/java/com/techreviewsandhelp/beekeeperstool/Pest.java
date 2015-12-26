@@ -61,14 +61,12 @@ public class Pest extends Activity {
                 startActivity(wiki);
             }
         });
-        /**
-         * Add links to the following
-         */
+
         americanfoul.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent wiki = new Intent(Intent.ACTION_VIEW);
-                wiki.setData(Uri.parse("http://en.wikipedia.org/wiki/Varroa_destructor"));
+                wiki.setData(Uri.parse("https://en.wikipedia.org/wiki/American_foulbrood"));
                 startActivity(wiki);
             }
         });
@@ -76,7 +74,7 @@ public class Pest extends Activity {
             @Override
             public void onClick(View v) {
                 Intent wiki = new Intent(Intent.ACTION_VIEW);
-                wiki.setData(Uri.parse("http://en.wikipedia.org/wiki/Varroa_destructor"));
+                wiki.setData(Uri.parse("https://en.wikipedia.org/wiki/List_of_diseases_of_the_honey_bee#European_foulbrood"));
                 startActivity(wiki);
             }
         });
@@ -84,7 +82,7 @@ public class Pest extends Activity {
             @Override
             public void onClick(View v) {
                 Intent wiki = new Intent(Intent.ACTION_VIEW);
-                wiki.setData(Uri.parse("http://en.wikipedia.org/wiki/Varroa_destructor"));
+                wiki.setData(Uri.parse("https://en.wikipedia.org/wiki/List_of_diseases_of_the_honey_bee#Chalkbrood"));
                 startActivity(wiki);
             }
         });
@@ -92,7 +90,7 @@ public class Pest extends Activity {
             @Override
             public void onClick(View v) {
                 Intent wiki = new Intent(Intent.ACTION_VIEW);
-                wiki.setData(Uri.parse("http://en.wikipedia.org/wiki/Varroa_destructor"));
+                wiki.setData(Uri.parse("https://en.wikipedia.org/wiki/List_of_diseases_of_the_honey_bee#Sacbrood_virus"));
                 startActivity(wiki);
             }
         });
@@ -100,10 +98,15 @@ public class Pest extends Activity {
             @Override
             public void onClick(View v) {
                 Intent wiki = new Intent(Intent.ACTION_VIEW);
-                wiki.setData(Uri.parse("http://en.wikipedia.org/wiki/Varroa_destructor"));
+                wiki.setData(Uri.parse("https://en.wikipedia.org/wiki/List_of_diseases_of_the_honey_bee#Nosema"));
                 startActivity(wiki);
             }
         });
+
+        /**
+         * Add links to the following
+         */
+        
         beelouse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
